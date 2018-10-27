@@ -6,10 +6,18 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 
     // parameters
-    [SerializeField] float autoLoadNextLevelAfter;
+    [SerializeField] int autoLoadNextLevelAfter;
 
-    private void Start() {
-        Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+    private void Start()
+    {
+        if (autoLoadNextLevelAfter == 0)
+        {
+            Debug.Log("Level auto load disabled");
+        }
+        else
+        {
+            Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+        }
     }
 
     public void LoadLevel(string name) {
