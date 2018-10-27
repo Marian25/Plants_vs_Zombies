@@ -28,4 +28,8 @@ public class MusicManager : MonoBehaviour {
         }
 
     }
+
+    public void ChangeVolume(float volume) {
+        audioSource.volume = volume;
+    }
 }
