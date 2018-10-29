@@ -8,11 +8,17 @@ public class Attacker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        Rigidbody2D myRigidBody = gameObject.AddComponent<Rigidbody2D>();
+        myRigidBody.isKinematic = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         transform.Translate(Vector3.left * walkSpeed * Time.deltaTime);
 	}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(name + " trigger enter");
+    }
 }
