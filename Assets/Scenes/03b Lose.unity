@@ -431,6 +431,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114846246802547966, guid: 15930243d631a4cfc80dec51b2020455,
+        type: 2}
+      propertyPath: m_Text
+      value: Start Again
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15930243d631a4cfc80dec51b2020455, type: 2}
   m_IsPrefabAsset: 0
@@ -771,7 +776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: you lose
+  m_Text: you lose!
 --- !u!222 &1837847602
 CanvasRenderer:
   m_ObjectHideFlags: 0
