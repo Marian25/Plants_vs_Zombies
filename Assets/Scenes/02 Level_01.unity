@@ -676,42 +676,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4037190505607290, guid: 14ceacd4b5e2c43b3a8fe8880c7e5fb9,
     type: 2}
   m_PrefabInternal: {fileID: 1935060935}
---- !u!1 &1893104663 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1318376600100902, guid: 496dcf7bdbd2b49f18f2b2964da20300,
-    type: 2}
-  m_PrefabInternal: {fileID: 1645108118}
---- !u!50 &1893104667
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893104663}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &1893104668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893104663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9aea5a523924f7e9f3074f0c01f642, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1935060935
 Prefab:
   m_ObjectHideFlags: 0
