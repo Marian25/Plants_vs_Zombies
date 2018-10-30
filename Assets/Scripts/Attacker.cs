@@ -5,7 +5,10 @@ using UnityEngine;
 [RequireComponent (typeof (Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
-    private float currentSpeed = .5f;
+    [Tooltip ("Average number of seconds between appearances")]
+    public float seenEverySeconds;
+
+    private float currentSpeed;
     private GameObject currentTarget;
     private Animator animator;
 
