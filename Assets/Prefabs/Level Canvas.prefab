@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 114138997278059014}
   - component: {fileID: 82304724652099130}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Game Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e45f37d8e32b41698eedf31c3bc2b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelSeconds: 10
+  levelSeconds: 100
 --- !u!114 &114302820688048858
 MonoBehaviour:
   m_ObjectHideFlags: 1
